@@ -111,10 +111,12 @@ function passwordOptions() {
 
 // Ask to generate a different password
 function reset() {
-  generateBtn.textContent = "Generate a New Password"
+ 
   
   //reset password to empty string
   password = '';
+  charsAvailable = [];
+  generateBtn.textContent = "Generate a New Password"
 } 
 
 // Get references to the #generate element
